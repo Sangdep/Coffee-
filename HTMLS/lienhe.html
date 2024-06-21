@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="../images/logo.png">
+</head>
+<body>
+
+    <header class="header">
+        <section class="flex">
+            <a href="../index.html" class="logo" ><img src="../images/logo.png" alt="" ></a>
+            <nav class="navbar">
+                <a href="../index.html">Trang Chủ</a>
+                <a href="gioithieu.html">Giới Thiệu</a>
+                <a href="menu.html">menu</a>
+                <a href="thuvien.html">Thư Viện</a>
+                <a href="team.html">team</a>
+                <a href="#lienhe">Liên Hệ</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+
+
+
+
+    <section class="lienhe" id="lienhe">
+        <div class="heading">
+            <img src="../images/heading-img.png" alt="">
+            <h3>Liên Hệ Với chúng tôi</h3>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="../images/lienhe-img.png" alt="">
+            </div>
+
+            <form action="" method="post">
+                <h3>Đặt bàn </h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="Nhập tên của bạn">
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="nhập số của bạn" min="0" max="9999999999" onkeypress="if(this.value.length==10) return false">
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="có bao nhiêu người" min="0" max="99" onkeypress="if(this.value.length==2) return false">
+                <input type="submit" name="send" value="Gửi tin nhắn " class="btn">             
+            </form>
+        </div>
+    </section>
+
+
+    
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <P>tople1252005@gmail.com</P>
+                <p>sangletop125@gmail.com</p>
+            </div>
+            
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>Giờ mở cửa</h3>
+                <P>07:00 Đến 22:00</P>                
+            </div>
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Địa chỉ </h3>
+                <P>48 Cao thắng, Thanh Bình, Hải Châu, Đà nẵng </P>                
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>Số điện thoại</h3>
+                <P>086668686</P>
+                <p>098999999</p>
+            </div>
+        </div>
+        <div class="credit"> &copy; copyright @ 2024 by <span>Sangle</span></div>
+    </section>
+
+</body>
+</html>
